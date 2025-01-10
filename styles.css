@@ -362,11 +362,11 @@
   
   @media (max-width: 480px) {
     .arrow-left {
-      left: 25%;
+      left: 5%;
     }
   
     .arrow-right {
-      right: 25%;
+      right: 5%;
     }
   }
   
