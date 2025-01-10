@@ -60,7 +60,8 @@
       color: var(--primary-color);
       padding: 10px 20px;
       border-radius: 20px;
-      font-weight: bold;
+      font-family: var(--normal-text);
+      font-weight: 400;
       transition: background 0.5s ease;
   }
   
@@ -134,7 +135,8 @@
   .about-text {
     font-family: var(--normal-text);
     padding: clamp(0px, 5vw, 120px);
-    font-size: clamp(16px, 2vw, 24px);
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    font-weight: 300;
     line-height: 1.6;
     color: var(--primary-color);
   }
@@ -317,7 +319,9 @@
   
   .normal-text {
     font-family: var(--normal-text);
-    font-size: clamp(1rem, 2vw, 1.5rem);
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    font-weight: 300;
+    line-height: 1.6;
     color: var(--primary-color);
   }
   
@@ -495,6 +499,7 @@
   .skills-description {
     font-family: var(--normal-text);
     font-size: 1rem;
+    font-weight: 400;
     color: var(--dark-green);
   }
   
