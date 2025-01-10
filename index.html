@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <header class="navbar">
+        <nav aria-label="Main navigation">
+            <ul>
+                <li class="nav-item">
+                    <a href="#background-section" aria-label="Go to Background section">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="file" href="images/CM - CV.pdf" target="_blank" aria-label="Open resume in a new tab">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#footer" aria-label="Go to contact section in the footer">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Hero Section-->
+    <section class="hero" aria-label="Hero Section">
+        <div class="hero-text">
+            <h1>Camila<br>Meraz</h1>
+        </div>
+    </section>
+
+    <div id="animated-text-strip">
+        <span class="marquee">Strategic • Inclusive • Empowering • Innovative •&nbsp;</span>
+        <span class="marquee">Strategic • Inclusive • Empowering • Innovative •&nbsp;</span>
+        <span class="marquee">Strategic • Inclusive • Empowering • Innovative •&nbsp;</span>
+        <span class="marquee">Strategic • Inclusive • Empowering • Innovative •&nbsp;</span>
+        <span class="marquee">Strategic • Inclusive • Empowering • Innovative •&nbsp;</span>
+        <span class="marquee">Strategic • Inclusive • Empowering • Innovative •&nbsp;</span>
+        <span class="marquee">Strategic • Inclusive • Empowering • Innovative •&nbsp;</span>
+        <span class="marquee">Strategic • Inclusive • Empowering • Innovative •&nbsp;</span>
+        <span class="marquee">Strategic • Inclusive • Empowering • Innovative •&nbsp;</span>
+        <span class="marquee">Strategic • Inclusive • Empowering • Innovative •&nbsp;</span>
+    </div>
+
+    <!--About Section-->
+    <section class="about" aria-label="About Camila Meraz Section">
+        <article class="about-description">
+            <p class="about-text">Determined and results-driven communication and project management leader with over 6 years of experience developing and executing strategic
+                communication projects in multicultural environments. I have learned to communicate and collaborate with individuals at all hierarchical levels, from
+                entry-level employees to senior executives. I have a strong ability to create strong messaging strategies and effectively communicate with diverse audiences
+                using methods such as; storytelling, targeted content creation, and consumer engagement.</p>
+        </article>
+        <div class="about-image">
+            <img src="images/Camila-Meraz-Image.png" alt="image of Camila Meraz">
+        </div>
+    </section>
+
+    <!--Background Section-->
+    <section id="background-section" class="background-section" aria-label="Experience & Background Section">
+
+        <h2>Background</h2>
+        <p class="background-text">
+            My professional journey has been defined by a deep commitment to fostering authentic connections and advancing inclusive practices in marketing
+            and communications. Through my academic achievements and hands-on experience, I have honed my ability to craft strategies that amplify diverse
+            voices and resonate with multicultural audiences.
+        </p>
+
+        <p class="background-text">
+            My passion lies at the intersection of creativity, advocacy, and leadership—a combination that drives my work to inspire meaningful change.
+            From developing strategic recruitment plans that increased applicant numbers for leadership programs, to creating inclusive brand messaging
+            for fashion events, I have consistently leveraged my communication and marketing expertise to build bridges between diverse communities and
+            the brands or organizations I represent.
+        </p>
+
+        <p class="background-text">
+            My thesis, D&Ivertising: Gen Z and Brand Loyalty, explored how authenticity in Diversity and Inclusion (D&I) practices fosters lasting relationships with younger generations.
+            It reflects my belief that brands must move beyond performative efforts and embrace real representation to cultivate trust and loyalty. This work aligns seamlessly with my passion
+            for consumer psychology, storytelling, and cultural competency.
+            In every role I have undertaken, I have prioritized collaboration and innovation. Whether developing leadership curriculums that celebrate cultural identity or creating targeted
+            marketing campaigns that engage audiences, I bring a people-first approach to my work.
+        </p>
+
+        <p class="background-text">
+            My experiences as a Communications Consultant, Event Manager, and Marketing Intern have strengthened
+            my ability to adapt, lead, and deliver impactful projects in dynamic, fast-paced environments.
+            I am excited to continue my journey as a champion for Diversity, Equity, and Inclusion in the communications landscape. By combining strategic insight, cultural awareness, and a genuine
+            desire to connect, I strive to make every project an opportunity to create progress and amplify underrepresented voices.
+        </p>
+    </section>
+
+    <!--Impact Section-->
+    <section class="impact-section" aria-label="Impact Section">
+        <h2>How I Make an Impact</h2>
+        <div class="slider">
+          <button class="arrows arrow-left" onclick="moveSlide(-1)" aria-label="Previous slide">&#9664;</button>
+          <div class="slides">
+              <div class="slide">
+                  <div class="normal-text">Boosted new applicant numbers by</div>
+                  <div class="callout-text large-callout">50%</div>
+                  <div class="normal-text">through a targeting recruitment strategy</div>
+              </div>
+              <div class="slide">
+                  <div class="normal-text">Planning and managing events for over</div>
+                  <div class="callout-text large-callout">500</div>
+                  <div class="normal-text">Attendees</div>
+              </div>
+              <div class="slide">
+                  <div class="callout-text medium-callout">Master in Media Studies - Media & Business</div>
+                  <div class="normal-text">Erasmus University Rotterdam, Rotterdam, NL</div>
+                  <div class="callout-text medium-callout">Bachelor in Communication, Minor in Marketing</div>
+                  <div class="normal-text">Aquinas College, Grand Rapids, MI, USA</div>
+              </div>
+              <div class="slide">
+                  <div class="normal-text">Certifications:</div>
+                  <div class="callout-text medium-callout">Online Marketing Fundamentals</div>
+                  <div class="callout-text medium-callout">Content Marketing</div>
+                  <div class="callout-text medium-callout">Blogging</div>
+                  <div class="callout-text medium-callout">Social Media Marketing</div>
+              </div>
+          </div>
+          <button class="arrows arrow-right" onclick="moveSlide(1)" aria-label="Next slide">&#9654;</button>
+          <div class="dots">
+              <span class="dot" onclick="setSlide(0)"></span>
+              <span class="dot" onclick="setSlide(1)"></span>
+              <span class="dot" onclick="setSlide(2)"></span>
+              <span class="dot" onclick="setSlide(3)"></span>
+          </div>
+      </div>
+      
+
+
+    <!--Testimonial Section-->
+    <section class="testimonial" aria-label="Testimonials Section">
+        <div class="carousel">
+            <div class="group">
+                <div class="card">
+                    <blockquote class="quote">
+                        <p>“Camila brought a positive and proactive attitude to every project during her
+                            time with the Latino Leadership Program. Always eager to take on new challenges,
+                            she played a key role in designing a targeted recruitment strategy and co-developing
+                            an alumni engagement plan. Camila's advanced survey development skills helped enhance
+                            program insights and drive informed decisions. Her collaborative and approachable nature
+                            made her a pleasure to work with.”</p>
+                    </blockquote>
+                    <div class="card-client">
+                        <img src="images/Leaderes.png" alt="LeadEREs nonprofit logo" />
+                        <cite class="client-details">
+                            <p class="testimonial-title">Carlos Sanchez</p>
+                            <p>Executive Director of LEADeres</p>
+                        </cite>
+                    </div>
+                </div>
+                <div class="card">
+                    <blockquote class="quote">
+                        <p>“Camila’s thesis brilliantly highlights how diversity and inclusion enrich visual branding.
+                            I am excited to see her challenge the norms and pave the way for a more inclusive industry and society!”</p>
+                    </blockquote>
+                    <div class="card-client">
+                        <img src="images/Rotterdam.png" alt="Rotterdam University" />
+                        <cite class="client-details">
+                            <p class="testimonial-title">Dr. Lijie Zheng</p>
+                            <p>Lecturer at Department of Media and Communication</p>
+                        </cite>
+                    </div>
+                </div>
+                <div class="card">
+                    <blockquote class="quote">
+                        <p>“Camila’s growth within Applause has been nothing short of impressive. She was always
+                            willing to go above and beyond, often serving as a bridge between staff and leadership.
+                            Her hardworking nature and professionalism were exemplified in every situation, whether
+                            she was managing events or supporting our team’s development. Camila's commitment to fostering
+                            an inclusive, positive company culture and her ability to handle challenges with grace and
+                            efficiency made her a strong asset.” </p>
+                    </blockquote>
+                    <div class="card-client">
+                        <img src="images/Applause.png" alt="Applause Catering logo" />
+                        <cite class="client-details">
+                            <p class="testimonial-title">David Castro</p>
+                            <p>President/CEO of Applause</p>
+                        </cite>
+                    </div>
+                </div>
+                <div class="card">
+                    <blockquote class="quote">
+                        <p>“Camila’s growth within Applause has been nothing short of impressive. She was always
+                            willing to go above and beyond, often serving as a bridge between staff and leadership.
+                            Her hardworking nature and professionalism were exemplified in every situation, whether
+                            she was managing events or supporting our team’s development. Camila's commitment to fostering
+                            an inclusive, positive company culture and her ability to handle challenges with grace and
+                            efficiency made her a strong asset.” </p>
+                    </blockquote>
+                    <div class="card-client">
+                        <img src="images/Applause.png" alt="Applause Catering logo" />
+                        <cite class="client-details">
+                            <p class="testimonial-title">David Castro</p>
+                            <p>President/CEO of Applause</p>
+                        </cite>
+                    </div>
+                </div>
+            </div>
+
+            <div aria-hidden class="group">
+                <div class="card">
+                    <blockquote class="quote">
+                        <p>“Camila brought a positive and proactive attitude to every project during her
+                            time with the Latino Leadership Program. Always eager to take on new challenges,
+                            she played a key role in designing a targeted recruitment strategy and co-developing
+                            an alumni engagement plan. Camila's advanced survey development skills helped enhance
+                            program insights and drive informed decisions. Her collaborative and approachable nature
+                            made her a pleasure to work with.”</p>
+                    </blockquote>
+                    <div class="card-client">
+                        <img src="images/Leaderes.png" alt="LeadEREs nonprofit logo" />
+                        <cite class="client-details">
+                            <p class="testimonial-title">Carlos Sanchez</p>
+                            <p>Executive Director of LEADeres</p>
+                        </cite>
+                    </div>
+                </div>
+                <div class="card">
+                    <blockquote class="quote">
+                        <p>“Camila’s thesis brilliantly highlights how diversity and inclusion enrich visual branding.
+                            I am excited to see her challenge the norms and pave the way for a more inclusive industry and society!”</p>
+                    </blockquote>
+                    <div class="card-client">
+                        <img src="images/Leaderes.png" alt="Rotterdam University" />
+                        <cite class="client-details">
+                            <p class="testimonial-title">Dr. Lijie Zheng</p>
+                            <p>Lecturer at Department of Media and Communication</p>
+                        </cite>
+                    </div>
+                </div>
+                <div class="card">
+                    <blockquote class="quote">
+                        <p>“Camila’s growth within Applause has been nothing short of impressive. She was always
+                            willing to go above and beyond, often serving as a bridge between staff and leadership.
+                            Her hardworking nature and professionalism were exemplified in every situation, whether
+                            she was managing events or supporting our team’s development. Camila's commitment to fostering
+                            an inclusive, positive company culture and her ability to handle challenges with grace and
+                            efficiency made her a strong asset.” </p>
+                    </blockquote>
+                    <div class="card-client">
+                        <img src="images/Applause.png" alt="Applause Catering logo" />
+                        <cite class="client-details">
+                            <p class="testimonial-title">David Castro</p>
+                            <p>President/CEO of Applause</p>
+                        </cite>
+                    </div>
+                </div>
+                <div class="card">
+                    <blockquote class="quote">
+                        <p>“Camila’s growth within Applause has been nothing short of impressive. She was always
+                            willing to go above and beyond, often serving as a bridge between staff and leadership.
+                            Her hardworking nature and professionalism were exemplified in every situation, whether
+                            she was managing events or supporting our team’s development. Camila's commitment to fostering
+                            an inclusive, positive company culture and her ability to handle challenges with grace and
+                            efficiency made her a strong asset.” </p>
+                    </blockquote>
+                    <div class="card-client">
+                        <img src="images/Applause.png" alt="Applause Catering logo" />
+                        <cite class="client-details">
+                            <p class="testimonial-title">David Castro</p>
+                            <p>President/CEO of Applause</p>
+                        </cite>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <section>
+    <!--Skills Section-->
+    <section class="skills" aria-label="Skills Section">
+        <h2>What I can Bring to Your Team</h2>
+        <div class="icons-container">
+            <div class="icon-item">
+                <img src="images/8-speech bubble.png" alt="Speech bubble icon">
+                <p class="skills-description">Communication Strategy & Stakeholder Engagement</p>
+            </div>
+            <div class="icon-item">
+                <img src="images/hands.png" alt="Hands icon">
+                <p class="skills-description">DEI & Leadership</p>
+            </div>
+            <div class="icon-item">
+                <img src="images/Question mark.png" alt="Question mark icon">
+                <p class="skills-description">Data Analystics & <br>Problem-solving</p>
+            </div>
+            <div class="icon-item">
+                <img src="images/Digital.png" alt="world icon">
+                <p class="skills-description">Project Management & Digital Proficiency</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer id="footer" class="footer" aria-label="Contact & Footer Section">
+        <div class="footer-content">
+            <div class="footer-header">
+                <h1>Camila Meraz</h1>
+            </div>
+
+            <div class="footer-subheader">
+                <h2>Let's Connect!</h2>
+                <address class="icons">
+                    <a href="mailto:your-email@example.com" aria-label="Send me an email">
+                        <img src="images/email-icon.png" alt="Email Icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/camila-meraz/" aria-label="Connect with me on LinkedIn">
+                        <img src="images/linkedin-icon.png" alt="LinkedIn Icon">
+                    </a>
+                </address>
+            </div>
+
+            <p class="footer-design">Designed by Sidney Stablein</p>
+        </div>
+    </footer>
+  </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
