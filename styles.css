@@ -222,10 +222,10 @@
   margin: 0 auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1575px) and (min-width: 769px) {
   .background-section {
     background-image: url(images/camila-background-img-laptop.png);
-    height: 982px;
+    height: auto;
   }
 }
 
@@ -461,7 +461,13 @@
     font-size: 0.9rem;
     font-style: normal;
   }
-  
+    
+  @media (max-width: 1575px) and (min-width: 1024px) {
+    .card {
+      width: 25%;
+    }
+  }
+
   @media (max-width: 1024px) {
     .group:not(footer *) {
       flex-direction: column;
